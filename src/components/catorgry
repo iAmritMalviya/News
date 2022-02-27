@@ -1,0 +1,72 @@
+<Routes exact path="/business"> element={<News pageSize={9} country="in" category="business"/>}/>
+<Routes exact path="/entertainment"> element={<News pageSize={9} country="in" category="entertainment"/>}/>
+<Routes exact path="/general"> element={<News pageSize={9} country="in" category="general"/>}/>
+<Routes exact path="/health"> element={<News pageSize={9} country="in" category="health"/>}/>
+<Routes exact path="/science"> element={<News pageSize={9} country="in" category="science"/>}/>
+<Routes exact path="/sports"> element={<News pageSize={9} country="in" category="sports"/>}/>
+<Routes exact path="/technology"> element={<News pageSize={9} country="in" category="technology"/>}/>
+
+       <Route exact path="/about"><News pageSize={9} country="in" category="sports"/></Route>
+
+       <BrowserRouter>
+       <Routes>
+        
+         <Route path="users/*" element={<Users />} />
+       </Routes>
+     </BrowserRouter>
+
+  
+  ae
+  ar
+  at
+  au
+  be
+  bg
+  br
+  ca
+  ch
+  cn
+  co
+  cu
+  cz
+  de
+  eg
+  fr
+  gb
+  gr
+  hk
+  hu
+  id
+  ie
+  il
+  in
+  it
+  jp
+  kr
+  lt
+  lv
+  ma
+  mx
+  my
+  ng
+  nl
+  no
+  nz
+  ph
+  pl
+  pt
+  ro
+  rs
+  ru
+  sa
+  se
+  sg
+  si
+  sk
+  th
+  tr
+  tw
+  ua
+  us
+  ve
+  za
